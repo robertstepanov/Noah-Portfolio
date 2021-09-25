@@ -6,7 +6,7 @@
 
 header {
     width: 100%;
-    /* height: 75px; */
+    height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,20 +49,33 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     /* height: 100vh; */
     color: #fff;
 }
 
+.landing-title {
+    font-size: 3rem;;
+}
+
 .landing-info {
-    margin-bottom: 1em;
+    font-size: 2rem;
+    margin-bottom: 1em;;
+}
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .header-btn {
     text-decoration: none;
     padding: 5px 20px;
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #fff;
     border-radius: 3px;
 }
