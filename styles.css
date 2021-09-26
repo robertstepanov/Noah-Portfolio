@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 header {
     width: 100%;
     height: 10vh;
@@ -53,10 +57,14 @@ nav {
     width: 100%;
     /* height: 100vh; */
     color: #fff;
+    display: flex;
+    align-items: center;
 }
 
 .landing-title {
-    font-size: 3rem;;
+    font-size: 3rem;
+    margin-bottom: 0.5em;
+    text-align: center;
 }
 
 .landing-info {
@@ -70,12 +78,27 @@ nav {
     justify-content: center;
     align-items: center;
     height: 100%;
+    background-color: rgba(255,255,255,0.06);
+    width: 90%;
+    height: 80%;
+    backdrop-filter: blur(20px);
+    margin: auto;
+    border-radius: 15px;
 }
 
-.header-btn {
+.cta-btn {
     text-decoration: none;
-    padding: 5px 20px;
+    padding: 10px 30px;
     color: #000;
     background-color: #fff;
     border-radius: 3px;
+}
+
+.buttons a {
+   font-size: 1.25rem;;
+}
+
+.buttons a:hover {
+    background-color: tan;
+
 }
